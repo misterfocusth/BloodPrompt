@@ -9,7 +9,7 @@ generator zod {
 
 datasource db {
   provider = "postgresql"
-  url      = "postgresql://silapakdeewong:65070219ITKMITL++@bloodpromptdb.postgres.database.azure.com:5432/postgres"
+  url      = env("DATABASE_URL")
 }
 
 model Medical_Accounts {
