@@ -106,9 +106,6 @@ devDependencies:
   autoprefixer:
     specifier: ^10.4.16
     version: 10.4.16(postcss@8.4.30)
-  bcrypt]:
-    specifier: link:@types/bcrypt]
-    version: link:@types/bcrypt]
   daisyui:
     specifier: ^3.8.0
     version: 3.8.0(ts-node@10.9.1)
